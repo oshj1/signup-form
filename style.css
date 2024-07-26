@@ -45,6 +45,13 @@ body{
 .right-side-container .form-container{
     background-color: white;
     padding: 50px;
+    height: 200px;
+    width: auto;
+    box-shadow: 2.8px 5.6px 5.6px hsl(0deg 0% 0% / 0.10);
+}
+
+.right-side-container .form{
+    
 }
 
 .form-input{
