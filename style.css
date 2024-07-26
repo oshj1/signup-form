@@ -46,7 +46,7 @@ body{
     background-color: white;
     padding: 50px;
     padding-top: 20px;
-    height: 200px;
+    height: 250px;
     width: auto;
     box-shadow: 2.8px 5.6px 5.6px hsl(0deg 0% 0% / 0.10);
 }
@@ -81,4 +81,38 @@ label{
     font-size: 25px;
     font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.create-account-btn{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 230px;
+    padding: 13px;
+    box-shadow: 2.8px 5.6px 5.6px hsl(0deg 0% 0% / 0.10);
+    border: 0;
+    border-radius: 5px;
+
+    background-color: #596D48;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.create-account-btn:hover{
+    animation: bubble 0.4s ease-out;
+}
+
+@keyframes bubble{
+    0%{
+        transform: scale1(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+    }
+
+    100%{
+        transform: scale(1);
+    }
 }
