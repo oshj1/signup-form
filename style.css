@@ -22,12 +22,38 @@ body{
     background-color: #f7f7f7;
     height: auto;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .right-side-container .banner{
     font-weight: 600;
+    font-size: 28px;
+    margin: 50px;
+    margin-right: 200px;
+    margin-top: 200px;
+    margin-bottom: 10px;
 }
 
 .right-side-container .subtext{
     font-weight: 600;
+    font-size: 28px;
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.right-side-container .form-container{
+    background-color: white;
+    padding: 50px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.form-input input{
+    padding: 4px;
+    border: 1px solid lightsteelblue;
 }
