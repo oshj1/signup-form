@@ -45,13 +45,20 @@ body{
 .right-side-container .form-container{
     background-color: white;
     padding: 50px;
+    padding-top: 20px;
     height: 200px;
     width: auto;
     box-shadow: 2.8px 5.6px 5.6px hsl(0deg 0% 0% / 0.10);
 }
 
-.right-side-container .form{
-    
+.form{
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 20px;
 }
 
 .form-input{
@@ -62,5 +69,16 @@ body{
 
 .form-input input{
     padding: 4px;
-    border: 1px solid lightsteelblue;
+    border: 1px solid rgb(211, 213, 216);
+    border-radius: 4px;
+}
+
+label{
+    font-weight: 600;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
