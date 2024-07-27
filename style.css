@@ -123,8 +123,9 @@ label{
 
 .opaque-background .banner-text{
     color:white;
-    font-size: 75px;
+    font-size: 100px;
     font-family: "Chakra Petch";
+    font-weight: 400;
 }
 
 .opaque-background{
