@@ -121,8 +121,13 @@ label{
     }
 }
 
+.opaque-background .odin-logo{
+    color:white;
+    font-size: 50px;
+}
+
 .opaque-background{
-    background-color: black;
+    background-color: rgb(0,0,0,0.5);
     top: 10px;
     position: absolute;
 
@@ -130,9 +135,9 @@ label{
     width:800px;
     margin-top: 200px;
     margin-left: 0;
-    opacity: 0.5;
 }
 
 .background-image{
     position: relative;
 }
+
