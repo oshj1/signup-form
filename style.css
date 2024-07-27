@@ -121,3 +121,18 @@ label{
     }
 }
 
+.opaque-background{
+    background-color: black;
+    top: 10px;
+    position: absolute;
+
+    height: 250px;
+    width:800px;
+    margin-top: 200px;
+    margin-left: 0;
+    opacity: 0.5;
+}
+
+.background-image{
+    position: relative;
+}
