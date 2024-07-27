@@ -73,6 +73,10 @@ body{
     border-radius: 4px;
 }
 
+.form-input input:invalid{
+    border: 1px solid red;
+}
+
 label{
     font-weight: 600;
 }
@@ -82,7 +86,6 @@ label{
     font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 
 .create-account-btn{
     margin-top: 30px;
