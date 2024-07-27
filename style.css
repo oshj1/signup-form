@@ -121,9 +121,10 @@ label{
     }
 }
 
-.opaque-background .odin-logo{
+.opaque-background .banner-text{
     color:white;
-    font-size: 50px;
+    font-size: 75px;
+    font-family: "Chakra Petch";
 }
 
 .opaque-background{
@@ -135,6 +136,9 @@ label{
     width:800px;
     margin-top: 200px;
     margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .background-image{
