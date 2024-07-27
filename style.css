@@ -101,6 +101,7 @@ label{
 
 .create-account-btn:hover{
     animation: bubble 0.4s ease-out;
+    cursor: pointer;
 }
 
 @keyframes bubble{
